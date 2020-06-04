@@ -9,6 +9,11 @@ The easiest way to set up couchbase is by pulling it from Docker https://hub.doc
 Run Couchbase Server docker container
 `docker run -d --name db -p 8091-8094:8091-8094 -p 11210:11210 couchbase`
 
+We have to run this command to index our bucket
+```
+create primary index on `employee`
+```
+
 
 # Employee entity
 
